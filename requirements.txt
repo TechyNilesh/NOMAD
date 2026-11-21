@@ -1,0 +1,16 @@
+# Core (NOMAD and all tree/projection baselines)
+numpy>=1.21
+scipy>=1.7
+scikit-learn>=1.0
+pandas>=1.3
+torch>=1.10
+pyod>=1.0
+combo>=0.1.3          # required by pyod score combination
+psutil>=5.8
+tqdm>=4.62
+maturin>=1.0          # builds src/pysad_rust
+
+# Optional: neural streaming baselines (ARCUS, METER, DyMETER)
+# hypnettorch==0.0.4
+# tensorflow>=2.16
+# tf-keras>=2.16

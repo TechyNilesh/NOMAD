@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+src/pysad_rust/target/
+*.so
+*.dylib
+results/*
+!results/.gitkeep
+benchmarks/benchmark_results/

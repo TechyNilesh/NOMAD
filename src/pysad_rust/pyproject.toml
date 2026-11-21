@@ -1,0 +1,11 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "pysad_rust"
+version = "0.1.0"
+description = "Rust implementations of streaming anomaly detectors used by NOMAD"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
